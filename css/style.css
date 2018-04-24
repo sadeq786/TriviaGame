@@ -1,0 +1,55 @@
+body {
+    background-image: url("../images/bkg2.jpg");
+    /* background-repeat: no-repeat; */
+}
+
+.row {
+    padding-top: 20px;
+}
+.jumbotron {
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #ff8080;
+    margin-bottom: 0;
+    border-radius: 0; 
+}
+
+.jumbo {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.same-size {
+    height: 80px;
+    
+}
+
+.question {
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+label {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#one {
+    background-color: blue;
+}
+
+#two {
+    background-color: rgba(20, 184, 20, 0.705);
+}
+
+#three {
+    background-color: pink;
+}
+
+#four {
+    background-color: mediumspringgreen;
+}
+
+#five {
+    background-color: darkorange;
+}
