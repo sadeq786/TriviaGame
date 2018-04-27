@@ -23,10 +23,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 same-size" id="one">Time Remaining: 40 seconds</div>
+            <div class="col-md-12 same-size screen1" id="six">
+                <button class="btn-success" id="startButton">Start Game</button>
+            </div>
         </div>
         <div class="row">
-            <div class="col-md-12 same-size" id="two">
+            <div class="col-md-12 same-size screen2" id="one">
+                <div id="zero">Time Remaining: <span id="timer"></span> seconds</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 same-size screen2" id="two">
                 <div class="question">What is the capital of Brazil?</div>
                 <label class="checkbox-inline">
                     <input type="checkbox" value=""> Rio De Janeiro</label>
@@ -39,7 +46,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 same-size" id="three">
+            <div class="col-md-12 same-size screen2" id="three">
                 <div class="question">What is the capital of Uruguay?</div>
                 <label class="checkbox-inline">
                         <input type="checkbox" value=""> Buenos Aires</label>
@@ -52,7 +59,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 same-size" id="four">
+            <div class="col-md-12 same-size screen2" id="four">
                 <div class="question">What is the capital of Iceland?</div>
                 <label class="checkbox-inline">
                         <input type="checkbox" value=""> Brussels</label>
@@ -65,7 +72,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 same-size" id="five">
+            <div class="col-md-12 same-size screen2" id="five">
                 <div class="question">What is the capital of Turkey?</div>
                 <label class="checkbox-inline">
                         <input type="checkbox" value="">  Istanbul</label>
@@ -77,6 +84,22 @@
                         <input type="checkbox" value="">  Izmir</label>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12 same-size screen2" id="six">
+                <button class="btn-success" id="submitButton">Submit</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 same-size screen3" id="seven">
+                <div>
+                    <p>All Done!</p>
+                    <p>Correct Answers: <span id="correct"></span></p>
+                    <p>Incorrect Answers: <span id="incorrect"></span></p>
+                    <p>Unanswered: <span id="unanswered"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="row"></div>
     </div>
     <script src="./javascript/app.js"></script>
 </body>
